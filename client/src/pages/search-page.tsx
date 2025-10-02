@@ -1,3 +1,5 @@
+import { SearchProfilesForm } from '@/features/search-profiles'
+
 export const SearchPage = () => {
-  return <div>Search Page</div>
+  return <SearchProfilesForm />
 }

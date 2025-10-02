@@ -1,17 +1,6 @@
+import { SKILLS } from '@/shared/constants/skills'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
-
-const skills = [
-  'React',
-  'Node.js',
-  'TypeScript',
-  'JavaScript',
-  'Express',
-  'CSS',
-  'GraphQL',
-  'Redux',
-  'PostgreSQL',
-]
 
 const colorSets = [
   { bg: '#e9f0ff', text: '#1e3a8a' },
@@ -20,7 +9,7 @@ const colorSets = [
 
 export const TagCloudChaotic = () => {
   const [tags, setTags] = useState(
-    skills.map(tag => {
+    SKILLS.map(tag => {
       const set = colorSets[Math.floor(Math.random() * colorSets.length)]
       const yOffset = Math.random() * 8 - 5
       return { tag, ...set, yOffset }
