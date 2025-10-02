@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Smith",
+    "age": 28,
+    "city": "New York",
+    "skills": ["React", "TypeScript", "Node.js", "Tailwind CSS"],
+    "about": "Passionate frontend developer with a focus on UI design.",
+    "rating": 4.5,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bob Johnson",
+    "age": 32,
+    "city": "London",
+    "skills": ["Express", "MongoDB", "React", "GraphQL"],
+    "about": "Full-stack developer who loves building scalable web apps.",
+    "rating": 4.0,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "age": 26,
+    "city": "Berlin",
+    "skills": ["React", "Node.js", "CSS", "Redux"],
+    "about": "UI/UX enthusiast with a keen eye for detail.",
+    "rating": 4.2,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Diana Prince",
+    "age": 30,
+    "city": "Paris",
+    "skills": ["TypeScript", "Node.js", "GraphQL", "Express"],
+    "about": "Backend developer who enjoys solving complex problems.",
+    "rating": 4.7,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Ethan Hunt",
+    "age": 29,
+    "city": "Tokyo",
+    "skills": ["React", "Redux", "Tailwind CSS", "HTML", "CSS"],
+    "about": "Frontend ninja passionate about responsive design.",
+    "rating": 4.1,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Fiona Gallagher",
+    "age": 35,
+    "city": "Chicago",
+    "skills": ["Node.js", "Express", "MongoDB", "TypeScript"],
+    "about": "Full-stack developer who loves optimizing performance.",
+    "rating": 4.3,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 7,
+    "name": "George Lucas",
+    "age": 40,
+    "city": "Los Angeles",
+    "skills": ["React", "TypeScript", "Redux", "GraphQL"],
+    "about": "Frontend architect passionate about reusable components.",
+    "rating": 4.6,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Hannah Montana",
+    "age": 24,
+    "city": "London",
+    "skills": ["React", "Node.js", "Express", "CSS"],
+    "about": "Full-stack developer who enjoys modern web technologies.",
+    "rating": 4.0,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ian Malcolm",
+    "age": 38,
+    "city": "Sydney",
+    "skills": ["React", "Tailwind CSS", "TypeScript", "HTML"],
+    "about": "Frontend developer who likes dynamic user interfaces.",
+    "rating": 4.4,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jessica Jones",
+    "age": 27,
+    "city": "New York",
+    "skills": ["Node.js", "MongoDB", "GraphQL", "Express"],
+    "about": "Backend developer who writes clean and maintainable code.",
+    "rating": 4.2,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Kevin Hart",
+    "age": 31,
+    "city": "Toronto",
+    "skills": ["React", "Redux", "Node.js", "TypeScript"],
+    "about": "Full-stack developer passionate about efficient coding.",
+    "rating": 4.1,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Laura Croft",
+    "age": 29,
+    "city": "Berlin",
+    "skills": ["TypeScript", "React", "Tailwind CSS", "CSS", "HTML"],
+    "about": "Frontend developer who loves crafting beautiful UIs.",
+    "rating": 4.5,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Michael Scott",
+    "age": 45,
+    "city": "Scranton",
+    "skills": ["Node.js", "Express", "TypeScript", "MongoDB"],
+    "about": "Backend developer experienced in API development.",
+    "rating": 4.3,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Nancy Drew",
+    "age": 33,
+    "city": "Los Angeles",
+    "skills": ["React", "CSS", "TypeScript", "Redux"],
+    "about": "Frontend developer focused on accessibility and UX.",
+    "rating": 4.4,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Oscar Wilde",
+    "age": 36,
+    "city": "Dublin",
+    "skills": ["Node.js", "Express", "MongoDB", "GraphQL"],
+    "about": "Backend specialist passionate about database design.",
+    "rating": 4.0,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Pam Beesly",
+    "age": 28,
+    "city": "Scranton",
+    "skills": ["React", "Redux", "Tailwind CSS", "CSS"],
+    "about": "Frontend developer who enjoys interactive designs.",
+    "rating": 4.2,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Quentin Tarantino",
+    "age": 50,
+    "city": "Los Angeles",
+    "skills": ["Node.js", "Express", "GraphQL", "MongoDB"],
+    "about": "Full-stack developer with a love for clean architecture.",
+    "rating": 4.5,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Rachel Green",
+    "age": 30,
+    "city": "New York",
+    "skills": ["React", "TypeScript", "CSS", "Tailwind CSS"],
+    "about": "Frontend developer focusing on responsive layouts.",
+    "rating": 4.3,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Steve Rogers",
+    "age": 35,
+    "city": "Washington",
+    "skills": ["Node.js", "MongoDB", "TypeScript", "Express"],
+    "about": "Backend developer skilled in API optimization.",
+    "rating": 4.6,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Tina Fey",
+    "age": 32,
+    "city": "Chicago",
+    "skills": ["React", "Tailwind CSS", "Redux", "CSS"],
+    "about": "Frontend developer passionate about clean code and UI.",
+    "rating": 4.4,
+    "image": "https://img.freepik.com/premium-photo/abstract-metal-background_1126981-44466.jpg"
+  }
+]
