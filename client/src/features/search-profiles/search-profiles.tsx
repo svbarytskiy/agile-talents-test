@@ -15,6 +15,8 @@ import {
   FormSchema,
   useSkillSelection,
 } from './hooks/use-skill-selection'
+import { useProfileSearch } from '@/app/context'
+import { useCallback } from 'react'
 
 export function SearchProfilesForm() {
   const form = useForm<FormValues>({
@@ -25,13 +27,18 @@ export function SearchProfilesForm() {
   })
 
   const searchLogic = useSkillSelection({ form })
+  const { performSearch } = useProfileSearch()
 
-  function onSubmit(data: FormValues) {
-    console.log('Searching for skills:', data.skills)
-  }
+  const onSubmit = useCallback(
+    (data: FormValues) => {
+      performSearch(data.skills)
+      searchLogic.setSearchQuery('')
+    },
+    [performSearch, searchLogic],
+  )
 
   return (
-    <div className="flex flex-col items-center p-6 space-y-6">
+    <div className="flex flex-col items-center md:p-6 space-y-6">
       <h1 className="text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-50">
         Search Profiles
       </h1>

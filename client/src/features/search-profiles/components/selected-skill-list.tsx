@@ -5,11 +5,11 @@ import {
   MAX_SKILLS_ALLOWED,
 } from '../hooks/use-skill-selection'
 
-interface SelectedSkillsListProps {
+interface Props {
   searchLogic: ReturnType<typeof useSkillSelection>
 }
 
-export function SelectedSkillsList({ searchLogic }: SelectedSkillsListProps) {
+export const SelectedSkillsList = ({ searchLogic }: Props) => {
   const { selectedSkills, handleSkillRemove } = searchLogic
 
   if (selectedSkills.length === 0) {

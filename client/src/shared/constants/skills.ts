@@ -8,4 +8,6 @@ export const SKILLS = [
   'GraphQL',
   'Redux',
   'PostgreSQL',
+  'MongoDB',
+  'Tailwind CSS',
 ]

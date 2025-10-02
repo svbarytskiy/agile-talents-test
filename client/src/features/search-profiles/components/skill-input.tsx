@@ -73,7 +73,7 @@ export function SkillInput({ searchLogic }: SkillInputProps) {
         <PopoverContent
           style={{ width: inputWidth }}
           className="p-0"
-          onOpenAutoFocus={e => e.preventDefault()}
+          onOpenAutoFocus={(e: Event) => e.preventDefault()}
         >
           <Command>
             <CommandList>

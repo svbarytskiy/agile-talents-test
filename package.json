@@ -33,5 +33,9 @@
       "npx eslint --config client/eslint.config.js --fix",
       "npx prettier --write"
     ]
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
+    "react-redux": "^9.2.0"
   }
 }
