@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary-blue: #4263eb;
+  --color-text-dark: #171c33;
+  --color-text-medium: #8c8c8c;
+  --color-bg-page: #f7f7fc;
+  --color-bg-tag: #e9ecfa;
+  --color-rating-star: #ffc837;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg-page);
+}
+
+* {
+  box-sizing: border-box;
+}
